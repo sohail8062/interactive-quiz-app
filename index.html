@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="quiz-box">
+    <h2 id="question">Question here</h2>
+
+    <div class="options">
+      <button onclick="checkAnswer(0)" class="opt"></button>
+      <button onclick="checkAnswer(1)" class="opt"></button>
+      <button onclick="checkAnswer(2)" class="opt"></button>
+      <button onclick="checkAnswer(3)" class="opt"></button>
+    </div>
+
+    <p id="result"></p>
+    <button id="nextBtn" onclick="nextQuestion()">Next</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
